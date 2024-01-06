@@ -1,13 +1,7 @@
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
-import { longestCommonPrefix } from "./longestCommonPrefix";
-
-const example1 = ["flower", "flow", "flight"];
-const example2 = ["dog", "racecar", "car"];
-
-console.log(longestCommonPrefix(example1)); // Output: "fl"
-console.log(longestCommonPrefix(example2)); // Output: ""
+import * as tasks from "./tasks";
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
