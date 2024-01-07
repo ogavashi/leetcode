@@ -3,6 +3,11 @@ import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import * as tasks from "./tasks";
 
+const nums = [1, 3, 5, 6, 7, 8, 9],
+  target = 5;
+
+console.log(tasks.searchInsert(nums, target));
+
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
