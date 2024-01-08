@@ -4,3 +4,8 @@ export { removeDuplicates } from "./removeDuplicates";
 export { removeElement } from "./removeElement";
 export { strStr } from "./strStr";
 export { searchInsert } from "./searchInsert";
+export { lengthOfLastWord } from "./lengthOfLastWord";
+export { plusOne } from "./plusOne";
+export { mySqrt } from "./mySqrt";
+export { deleteDuplicates } from "./deleteDuplicates";
+export { inorderTraversal } from "./inorderTraversal";

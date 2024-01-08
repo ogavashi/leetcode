@@ -3,10 +3,23 @@ import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import * as tasks from "./tasks";
 
-const nums = [1, 3, 5, 6, 7, 8, 9],
-  target = 5;
+class TreeNode {
+  val: number;
+  left: TreeNode | null;
+  right: TreeNode | null;
+  constructor(val?: number, left?: TreeNode | null, right?: TreeNode | null) {
+    this.val = val === undefined ? 0 : val;
+    this.left = left === undefined ? null : left;
+    this.right = right === undefined ? null : right;
+  }
+}
 
-console.log(tasks.searchInsert(nums, target));
+// Creating the tree with the provided structure [1, null, 2, 3]
+const root = new TreeNode(1);
+root.right = new TreeNode(2);
+root.right.left = new TreeNode(3);
+
+console.log(tasks.inorderTraversal(root));
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
