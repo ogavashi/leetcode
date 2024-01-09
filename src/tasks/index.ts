@@ -9,3 +9,7 @@ export { plusOne } from "./plusOne";
 export { mySqrt } from "./mySqrt";
 export { deleteDuplicates } from "./deleteDuplicates";
 export { inorderTraversal } from "./inorderTraversal";
+export { isSameTree } from "./isSameTree";
+export { isSymmetric } from "./isSymmetric";
+export { maxDepth } from "./maxDepth";
+export { getRow } from "./getRow";
