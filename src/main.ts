@@ -3,7 +3,10 @@ import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import * as tasks from "./tasks";
 
-console.log(tasks.getRow(3));
+const nums = [0, 2, 3, 4, 6, 8, 9];
+
+console.log(nums);
+console.log(tasks.summaryRanges(nums));
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
