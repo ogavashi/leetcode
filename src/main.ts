@@ -3,7 +3,9 @@ import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import * as tasks from "./tasks";
 
-console.log(tasks.firstUniqChar("leetcode"));
+const s = "Let's take LeetCode contest";
+
+console.log(tasks.reverseWords(s));
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>

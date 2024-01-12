@@ -25,3 +25,5 @@ export { countBits } from "./countBits";
 export { reverseVowels } from "./reverseVowels";
 export { guessNumber } from "./guessNumber";
 export { firstUniqChar } from "./firstUniqChar";
+export { findPoisonedDuration } from "./findPoisonedDuration";
+export { reverseWords } from "./reverseWords";
