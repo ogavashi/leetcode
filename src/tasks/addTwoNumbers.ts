@@ -10,7 +10,7 @@
  * }
  */
 
-function getNumber(l: ListNode | null): bigint {
+function getNumbers(l: ListNode | null): bigint {
   const num: number[] = [];
 
   function visit(node: ListNode | null) {
@@ -26,10 +26,8 @@ function getNumber(l: ListNode | null): bigint {
 }
 
 function addTwoNumbers(l1: ListNode | null, l2: ListNode | null): ListNode | null {
-  console.log(getNumber(l1), getNumber(l2));
-
-  const num1 = getNumber(l1);
-  const num2 = getNumber(l2);
+  const num1 = getNumbers(l1);
+  const num2 = getNumbers(l2);
 
   const res = num1 + num2;
 

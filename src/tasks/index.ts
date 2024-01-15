@@ -27,3 +27,6 @@ export { guessNumber } from "./guessNumber";
 export { firstUniqChar } from "./firstUniqChar";
 export { findPoisonedDuration } from "./findPoisonedDuration";
 export { reverseWords } from "./reverseWords";
+export { nextPermutation } from "./nextPermutation";
+export { countAndSay } from "./countAndSay";
+export { findDisappearedNumbers } from "./findDisappearedNumbers";

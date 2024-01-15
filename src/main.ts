@@ -3,9 +3,8 @@ import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import * as tasks from "./tasks";
 
-const s = "Let's take LeetCode contest";
-
-console.log(tasks.reverseWords(s));
+const nums = [4, 3, 2, 7, 8, 2, 3, 1];
+console.log(tasks.findDisappearedNumbers(nums));
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
