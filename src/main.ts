@@ -3,8 +3,7 @@ import typescriptLogo from "./typescript.svg";
 import viteLogo from "/vite.svg";
 import * as tasks from "./tasks";
 
-const nums = [4, 3, 2, 7, 8, 2, 3, 1];
-console.log(tasks.findDisappearedNumbers(nums));
+tasks.pyramid(5);
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>

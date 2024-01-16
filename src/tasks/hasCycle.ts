@@ -22,3 +22,18 @@ function hasCycle(head: ListNode | null): boolean {
 
   return false;
 }
+
+function hasCycle2(head: ListNode | null): boolean {
+  let slow = head;
+  let fast = head?.next;
+
+  while (fast && fast.next && slow) {
+    if (fast === slow) {
+      return true;
+    }
+    fast = fast.next.next;
+    slow = slow.next;
+  }
+
+  return false;
+}
